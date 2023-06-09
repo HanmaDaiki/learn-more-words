@@ -35,7 +35,7 @@ const Question: React.FC = () => {
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setAnswer(e.target.value)} defaultValue={answer}/>
         
         
-        <Button>Узнать резальтат</Button>
+        <Button>Узнать результат</Button>
       </form>
     </Modal>
   );
